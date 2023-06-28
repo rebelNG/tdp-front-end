@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(18, 73, 1);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: rgb(130, 163, 130);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+
+.Listmove{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}

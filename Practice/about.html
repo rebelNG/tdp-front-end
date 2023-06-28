@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
     <a href="/Practice/index.html">
-        <img src="/Practice/images/WhatsApp Image 2023-06-28 at 09.39.15.jpeg" alt="">
+        <img style="width: 250px; height: 250px; text-align: left ;" src="/Practice/images/WhatsApp Image 2023-06-28 at 09.39.15.jpeg" alt="">
         <h3>HOME</h3>
     </a>
 
     <a href="/Practice/test.html">
         <h3>Test</h3>
     </a>
+
+    <form style="border: black; border-style: inset; width: 30%;" action="/Practice/index.html" method="post">
+        <h1>SIGN UP FORM</h1>
+        <legend>Your Basic Info</legend>
+        <input type="text" name="Fullname" placeholder="Enter Fullname"><br>
+        <input type="text" name="Email Address" placeholder="Enter Your Email here"><br>
+        <input type="text; number" name="Password" placeholder="Enter Password here">
+        <legend>Gender</legend>
+        <legend>Male<input type="radio" name="Gender" id="Male"></legend>
+        <legend>female <input type="radio" name="Gender" id="Female"></legend>
+        <legend>Not Specified <input type="radio" name="Gender" id="Not Specified"></legend><br>
+        <button type="submit">Sign Up</button>
+
+    </form>
 </body>
 </html>
