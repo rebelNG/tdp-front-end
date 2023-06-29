@@ -1,0 +1,27 @@
+em{
+    color: blue;
+}
+
+article h1{
+    color: red;
+}
+
+article > blockquote{
+    color: limegreen;
+}
+
+p + footer{
+    color: purple;
+}
+
+h1 ~ p{
+    background-color: grey;
+}
+
+.hover{
+    color: rgb(0, 0, 0);
+}
+
+.hover:hover{
+    color: red;
+}
