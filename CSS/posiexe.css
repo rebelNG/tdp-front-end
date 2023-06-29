@@ -1,0 +1,28 @@
+h1{
+    visibility: hidden;
+}
+
+li{
+    display: inline;
+}
+
+strong{
+    display: block;
+}
+
+.exercise{
+    position: relative;
+}
+
+.rightbottom{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

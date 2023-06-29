@@ -1,0 +1,25 @@
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+p::first-line{
+    color: blue;
+}
+
+
+p::after{
+    content: url(https://www.google.com/search?q=very+small+logo&oq=very+small+logo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCggFEAAYhgMYigUyCggGEAAYhgMYigUyCggHEAAYhgMYigUyCggIEAAYhgMYigXSAQg1ODEzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#imgrc=RN8g93Q1sWqgdM);
+}
+
+p::before{
+    content: url(https://www.pngwing.com/en/free-png-dkpaa);
+}
+
+.highlight:hover{
+    background-color: red;
+}
+
+input:active{
+    background-color: lightblue;
+}

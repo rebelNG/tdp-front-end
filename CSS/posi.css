@@ -1,0 +1,40 @@
+h1.hidden{
+    display: none;
+}
+
+h1.vis{
+    visibility: hidden;
+}
+
+div.scroll{
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+div.hidden{
+    background-color: #00ff00;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+div.ex1{
+    width: 500px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+div.ex2{
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+p.stay{
+    position: fixed;
+    bottom: 0;
+    background-color: purple;
+    border: 2px solid red;
+}
