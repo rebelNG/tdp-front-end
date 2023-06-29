@@ -4,100 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/practice.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+
     <title>AFROBEATS WORLD</title>
 </head>
 <body>
-    <nav>
-        <ul style="list-style-type: none;">
-            <li>
-                <a href="https://en.wikipedia.org/wiki/Davido">Davido</a>
-            </li>
-            <li><a href="https://en.wikipedia.org/wiki/Wizkid">Wizkid</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Burna_Boy">Burna Boy</a></li>
 
+    <div class="container text-center">
+        <div class="row align-items-start">
+
+
+            <header>
+                <h1 style="color: green; margin: 1px solid black;">THIS IS AFROBEATS</h1>
+            </header><br>
+
+<!-- This is for the navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/Practice/images/WhatsApp Image 2023-06-28 at 09.39.15.jpeg">AFROBEATS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Artists</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Top 100's
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://music.apple.com/bh/playlist/top-100-nigeria/pl.2fc68f6d68004ae993dadfe99de83877">Naija Top 100</a></li>
+              <li><a class="dropdown-item" href="https://music.apple.com/us/playlist/daily-100-uk/pl.c2273b7e89b44121b3093f67228918e7">UK Top 100</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://music.apple.com/us/playlist/afro-summer-beats-afrobeat-2023/pl.c7bd7992b4fd44dbbd64c3648c29431d">Best of Afrobeats</a></li>
+            </ul>
+          </li>
         </ul>
-    </nav>
-    <main>
-        <header>
-            This is about AFROBEATS
-        </header><br>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-        <a href="/Practice/index.html">
-            <h3>HOME</h3><br>
-            <img width="200" height="200" src="/Practice/images/WhatsApp Image 2023-06-28 at 09.39.15.jpeg" alt="My logo">
-        </a>
+<!-- This part arranges the page in columns -->
+            <div class="col">
 
-        <a href="/Practice/about.html">
-            <h3>About</h3>
-        </a>
+                <!-- Cards for the Artists -->
+                <div class="card" style="width: 18rem;">
+                    <img src="/Practice/images/davido.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">DAVIDO</h5>
+                      <p class="card-text">This is the old cat of the music industry who thinks others are kids and lol hes got loads of kids</p>
+                      <a href="https://en.wikipedia.org/wiki/Davido" class="btn btn-primary">Biography</a>
+                    </div>
+                </div><br>
 
-        <a href="mailto:chinazomalozieuwa@gmail.com"><h6>Mail Me!</h6></a>
-        <section>
-            <header>
-                <h2><b>DAVIDO</b></h2>
-                <p>This is the old cat of the music industry</p>
-                <img src="/Practice/images/davido.jfif" alt="This is davido, old cat">
-            </header>
-        </section>
+                <div class="card" style="width: 18rem;">
+                    <img src="/Practice/images/odogwu.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Burna Boy</h5>
+                      <p class="card-text">This guy is to pompous and thinks hes the best afrobeats artist on the planet but he is a mama's boy</p>
+                      <a href="https://en.wikipedia.org/wiki/Burna_Boy" class="btn btn-primary">Biography</a>
+                    </div>
+                </div><br>
+            </div>
 
-        <section>
-            <header>
-                <h2><b>WIZKID</b></h2>
-                <p>This is another old cat of the music industry</p>
-                <img src="/Practice/images/wizkid.jfif" alt="This is Wizkid, old cat">
-            </header>
-        </section>
+          <div class="col">
 
-        <section>
-            <header><h1>THESE ARE THE NEW CATS</h1></header>
-            <header>
-                <h2><b>BURNA BOY</b></h2>
-                <p>This guy was called a new cat and he got angry</p>
-                <img src="/Practice/images/odogwu.jfif" alt="This na Odogwu">
-            </header>
-        </section>
+            <!-- This is another set of cards -->
+            <div class="card" style="width: 18rem;">
+                <img src="/Practice/images/wizkid.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wizkid</h5>
+                  <p class="card-text">This guy literally does nothing online, just tweet one liners and smoke illegal stuffs lol</p>
+                  <a href="https://en.wikipedia.org/wiki/Wizkid" class="btn btn-primary">Biography</a>
+                </div>
+            </div><br>
 
-        <section>
-            <header>
-                <h2><b>OMAH LAY</b></h2>
-                <p>Probably the best guy yet</p>
-                <img src="/Practice/images/Omah.jfif" alt="A ph boy">
-            </header>
-        </section>
+            <div class="card" style="width: 18rem;">
+                <img src="/Practice/images/Omah.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Omah Lay</h5>
+                  <p class="card-text">Best in sad music which his style of afrobeats tagged afrotears or afrosorrows</p>
+                  <a href="https://en.wikipedia.org/wiki/Omah_Lay" class="btn btn-primary">Biography</a>
+                </div>
+            </div><br>
+          </div>
+          
+          <div class="col">
 
-        <section>
-            <header>
-                <h2><b>ODUMODU BLVCK</b></h2>
-                <p>This GUY does afrobam but lets just let him be here</p>
-                <img src="/Practice/images/download.jfif" alt="Declan rice boy">
-            </header>
-        </section><br>
-        
-        <section>
             <header><h1> BEST OF AFROBEATS 2013 </h1></header>
-            <ol type="a" class="Listmove">
+            <ol type="a" class="Listmove" style="margin: auto; text-align: justify;">
                 <li>Joanna by <mark>Omah Lay</mark></li>
                 <li>Reason by <mark>Omah Lay</mark></li>
                 <li>Declan Rice by <mark>Odumodu Blvck</mark></li>
                 <li>Scatta Scatta by <mark>Fave</mark></li>
             </ol>
+            
+          </div>
 
-            <dl>
-                <dt>Davido</dt>
-                <dd>This guy is always talking down on others</dd>
 
-                <dt>Wizkid</dt>
-                <dd>Nothing concern this guy with what is happening</dd>
-
-                <dt>Burna Boy</dt>
-                <dd>He just believes he is the best artist in africa</dd>
-            </dl>
-        </section><br>
+        </div>
+    </div>
 
         <footer>
             <h6>Afrobeat to the world!</h6>
         </footer>
-    </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
