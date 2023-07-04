@@ -85,12 +85,53 @@
 //     console.log(keys*2)
 // }
 
-let age = 85
-    if (age<=18) {
-        console.log('Underage');
-    }else if (age > 65){
-        console.log('Overage');
-    }else{
-        console.log('happy');
-    }
+// let age = 85
+//     if (age<=18) {
+//         console.log('Underage');
+//     }else if (age > 65){
+//         console.log('Overage');
+//     }else{
+//         console.log('happy');
+//     }
 
+// let a = 100
+// let b = 453
+// let c = 639
+// let counter = 0
+// while (counter <=1000) {
+//     console.log(counter);
+//     counter ++
+
+//     if (`${a}>${counter}`) {
+//         console.log('True');
+//     } 
+//     if (`${counter} >${b} && ${counter} < ${c}`) {
+//         console.log(`True but greater than ${a}`);
+//     }else if (counter > c) {
+//         console.log('Huge true');
+//     } else{
+//         console.log(counter);
+//     }
+// }
+
+// let count = 1;
+// let num1 = 10;
+// let num2 = 5;
+// let num3 = 7;
+
+// while (count <= 1000) {
+//   if (count % num1 === 0) {
+//     console.log(count, 'is divisible by', num1);
+//   }
+//   if (count % num2 === 0) {
+//     console.log(count, 'is divisible by', num2);
+//   }
+//   if (count % num3 === 0) {
+//     console.log(count, 'is divisible by', num3);
+//   }
+//   if (count % num1 === 0 && count % num2 === 0 && count % num3 === 0) {
+//     console.log(count, 'is divisible by all three numbers');
+//   }
+
+//   count++;
+// }

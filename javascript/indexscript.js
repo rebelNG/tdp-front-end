@@ -146,24 +146,24 @@ console.log("hello world!");
 // }
 // console.log(rebel.number);
 
-let objects = [
-    {type:'Dog', size: 'big', breed:'german', age:1},
-    {type:'Cat', size: 'big', breed: 'french', age:3},
-    {type:'Dog', size: 'small', breed:'shepherd', age:5}
-]
+// let objects = [
+//     {type:'Dog', size: 'big', breed:'german', age:1},
+//     {type:'Cat', size: 'big', breed: 'french', age:3},
+//     {type:'Dog', size: 'small', breed:'shepherd', age:5}
+// ]
 
 // let d = []
 // d.push(objects)
 // console.log(d);
 
-for(let objjj of objects){
-    console.log(objjj.type)
-}
+// for(let objjj of objects){
+//     console.log(objjj.type)
+// }
 
-let i = 0
-while (i < objects){
-    let currentObj = objetcs [i]
-}
+// let i = 0
+// while (i < objects){
+//     let currentObj = objetcs [i]
+// }
 // for(let name in objects){
 //     for(let obj in objects[name]){
 //         console.log(`${obj}: ${objects[name][obj]}`)
