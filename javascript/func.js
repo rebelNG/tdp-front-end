@@ -39,12 +39,12 @@ function fibonacci(z) {
     } else if (z === 1) {
       return 1;
     } else {
-      let previousNumber = 0;
+      let firstNumber = 0;
       let currentNumber = 1;
   
       for (let i = 2; i <= z; i++) {
-        let nextNumber = previousNumber + currentNumber;
-        previousNumber = currentNumber;
+        let nextNumber = firstNumber + currentNumber;
+        firstNumber = currentNumber;
         currentNumber = nextNumber;
       }
   
@@ -52,4 +52,22 @@ function fibonacci(z) {
     }
   }
 
-  console.log(fibonacci(6));
+  console.log(fibonacci(7));
+
+  const hello =() => 'Hello World'
+  console.log(hello());
+
+  let square = num => num * num
+  console.log(square(2));
+
+
+  let greet = () => 'Hello,'
+  console.log(greet() + 'Emmanuel');
+
+  let list = [10,20,30,40,50]
+  list.forEach(x => console.log(x))
+
+  let calc = (a,b,operations) => console.log(operations(a,b));
+
+  let addition = (a,b) => a + b
+  calc(10,20,addition)
